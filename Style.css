@@ -1,0 +1,144 @@
+/* Fundo com gradiente suave */
+body {
+    background: linear-gradient(to right, #f5f5dc, #c2a080);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+
+#title {
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+/* Menu de Navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: #4A4A4A;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Estilização de Títulos */
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+/* Destaque com cor */
+span {
+    color: #C08497;
+    font-weight: bold;
+}
+
+/* Estilização de Parágrafos */
+p {
+    line-height: 1.6;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Imagem estilizada */
+img {
+    width: 550px;
+    max-width: 600px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Layout principal */
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 40px;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 15px;
+}
+
+/* Botão estilizado */
+button {
+    background-color: #25D366;
+    color: white;
+    width: 50%;
+    height: 50px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Efeito no Hover do Botão */
+button:hover {
+    background-color: #1ebe57;
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Efeito ao Clicar */
+button:active {
+    transform: scale(0.95);
+
+}
+
+
